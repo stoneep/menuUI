@@ -1,6 +1,6 @@
 import bpy
 import rna_keymap_ui
-from .operator import MESH_OT_custom_box  # 같은 폴더의 operator.py에서 클래스 가져오기
+from .ops import MESH_OT_custom_box  # 같은 폴더의 ops.py에서 클래스 가져오기
 
 class CustomBoxPreferences(bpy.types.AddonPreferences):
     # 파일이 분리되었을 때는 __name__ 대신 __package__를 써야 
